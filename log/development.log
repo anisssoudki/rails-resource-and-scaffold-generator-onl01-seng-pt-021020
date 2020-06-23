@@ -67,3 +67,5 @@ Migrating to CreateArticles (20200623021246)
   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-23 02:14:20.008666"], ["updated_at", "2020-06-23 02:14:20.008666"]]
   [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 68.3.133.246 at 2020-06-23 02:14:28 +0000
+Cannot render console from 68.3.133.246! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
